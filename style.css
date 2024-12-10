@@ -1,4 +1,41 @@
-.headline {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    box-sizing: border-box;
+    width: 1120px;
+    height: 3054px;
+    margin: 88px 80px;
+    font-family: "Open Sans", serif;
+}
+
+.headline p{
+    height: 22px;
+    margin-bottom: 8px;
+    font-size: 16px;
     color: #E1624F;
     font-weight: bold;
+}
+
+h1{
+    color: #1B1B1B;
+    margin-bottom: 40px;
+    height: 49px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.descrition img{
+    margin-bottom: 24px;
+}
+
+.descrition p{
+    font-size: 16px;
+    text-align: center;
+    height: 37px;
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 40px;
 }

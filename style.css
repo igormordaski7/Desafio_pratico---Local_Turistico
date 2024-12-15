@@ -1,10 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box  ;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 #container{
-    box-sizing: border-box;
     width: 1120px;
     height: 3054px;
     margin: 88px 80px;
@@ -25,6 +31,14 @@ h1{
     height: 49px;
     font-size: 36px;
     font-weight: bold;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
 }
 
 .descrition img{
@@ -83,10 +97,51 @@ h1{
 li{
     color: #0C51A7;
     font-weight: bold;
-    margin-bottom: 48px;
 }
 
 li::marker{
     color: #333333;
      
+}
+
+.first-image, .second-image, .third-image img{
+    margin-top: 48px;
+}
+
+.second-image h3{
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+.third-image h3{
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.casais{
+    color: #591B98;
+}
+
+.familias{
+    color: #E5245E;
+}
+
+.orcamento{
+    color: #E95E10;
+}
+
+.divider1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+
+footer{
+    color: #333333;
+    text-align: center;
+}
+
+ul{
+    padding-left: 25px;
 }

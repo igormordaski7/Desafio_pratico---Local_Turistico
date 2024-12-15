@@ -75,3 +75,18 @@ h1{
     color: #333333;
     
 }
+
+.custom-list-container p{
+    font-weight: bold;
+}
+
+li{
+    color: #0C51A7;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+li::marker{
+    color: #333333;
+     
+}
